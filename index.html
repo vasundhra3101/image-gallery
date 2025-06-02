@@ -1,0 +1,64 @@
+<head>
+  <style>
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        margin:20px;
+        background-color: palevioletred;
+    }
+    h2{
+        text-align: center;
+    }
+    .gallery{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+        background-color: aqua;
+        background-color: 2px solid aqua;
+    }
+    .item{
+        text-align: center;
+    }
+    .gallery img{
+        width:200px;
+        height:200px;
+        margin-top:10px;
+        transition: transform 0.3s;
+    }
+    .gallery img:hover{
+        transform:scale(1.1);
+    }
+    .caption{
+        margin-top:10px;
+        font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <h2>😉face products</h2>
+    <div class="gallery">
+        <div class="item">
+            <img src="mama earth.jpeg"alt="ubtan face mask">
+            <p class="caption">Face Mask</p>
+        </div>
+        <div class="item">
+            <img src="face scrub from mama earth.jpg"alt="ubtan face scrub">
+            <p class="caption">Face Scrub</p>
+        </div>
+        <div class="item">
+            <img src="rice oil from mama earth.jpg"alt="rice face wash">
+            <p class="caption"> Rice Face wash</p>
+        </div>
+        <div class="item">
+            <img src="face cream from mama earth.jpg"alt="face cream">
+            <p class="caption">Face cream</p>
+        </div>
+        <div class="item">
+            <img src="face toner.jpg"alt="setting spray">
+            <p class="caption">Face TONER</p>
+        </div>
+        <div class="item">
+            <img src="retinal face wash.jpg"alt="for glowing skin">
+            <p class="caption">face wash</p>
+        </div>
+    </div>
+</body>
