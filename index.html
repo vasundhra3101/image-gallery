@@ -32,6 +32,17 @@
         margin-top:10px;
         font-weight: bold;
     }
+   @media (max-width: 768px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+      }
+    }
+
+    /* 🔹 Media Query for Mobile Phones (≤480px) */
+    @media (max-width: 480px) {
+      .gallery {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+      }
   </style>
 </head>
 <body>
